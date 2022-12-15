@@ -85,7 +85,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
  * free_dlistint - Will free a D-Linked list
  * @head: Pointer to the list to free
  */
-void free_dlistint(dlistint *head)
+void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *temp;
 
